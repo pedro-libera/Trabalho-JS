@@ -16,11 +16,7 @@ module.exports = {
         }
 
         res.json({
-            "data": arrayNomes
+            "nomes_personagens": arrayNomes
         });
     }
-
-    /* funcaoTeste(req, res) {
-        return res.send("fdc")
-    } */
 };

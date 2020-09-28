@@ -11,8 +11,8 @@ module.exports = {
 
         for (let i = 0; i < arrayUrlResidentes.length; i++) {
             let responseResidentes = await axios.get(arrayUrlResidentes[i]);
-            console.log(responseResidentes.data.residents)
-            arrayResidentes.push(responseResidentes.data.residents);
+            console.log(responseResidentes.data.name)
+            arrayResidentes.push(responseResidentes.data.name);
         }
 
         res.json({
